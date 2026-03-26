@@ -101,18 +101,19 @@
 //引用的本质（内部实现了一个指针常量）引用一旦初始化 就不能发生改变
 //常量引用(主要是修饰形参 防止误操作)
 //可以加上const修饰形参 防止形参改变实参
-#include <iostream>
-using namespace std;
-void showValue(const int& val) {
-	//val = 1000;//引用传递 会改变实参  可以加一个const 这样改变不了这个实参
-	cout << val << endl;
-}
-int main() {
-	//int a = 10;
-	//int& ref = a;//引用必须引用一个合法的内存空间
-	////加入const变为只读 不可修改
-	//const int& ref2 = 10;//加上const 编译器将代码修改 int temp=10; const int &ref=temp;
-    int a = 100;
-	showValue(a);
-	return 0;
-}
+//#include <iostream>
+//using namespace std;
+//void showValue(const int& val) {
+//	//val = 1000;//引用传递 会改变实参  可以加一个const 这样改变不了这个实参
+//	cout << val << endl;
+//}
+//int main() {
+//	//int a = 10;
+//	//int& ref = a;//引用必须引用一个合法的内存空间
+//	////加入const变为只读 不可修改
+//	//const int& ref2 = 10;//加上const 编译器将代码修改 int temp=10; const int &ref=temp;
+//    int a = 100;
+//	showValue(a);
+//	return 0;
+//}
+
