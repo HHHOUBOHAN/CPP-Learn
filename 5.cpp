@@ -1,10 +1,10 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-//类和对象
-//类：相同性质的对象 我们可以抽象成类
-//封装 把属性和行为作为一个整体 并且加以权限控制
-#include <iostream>
-#include <string>
-using namespace std;
+//#define _CRT_SECURE_NO_WARNINGS 1
+////类和对象
+////类：相同性质的对象 我们可以抽象成类
+////封装 把属性和行为作为一个整体 并且加以权限控制
+//#include <iostream>
+//#include <string>
+//using namespace std;
 ////设计圆类 求周长
 //const double PI = 3.14;
 //class C {
@@ -93,32 +93,32 @@ using namespace std;
 //
 //}
 //成员属性设置为私有（控制读写权限   写权限 检测数据的有效性 （在这个写入中进行写入内容验证））
-class Person {
-public:
-	void setname(string name){
-		this->name = name;
-	}
-	string getname() {
-		return name;
-	}
-	void setage (int age){
-		if (age < 0 || age>150) {
-			cout << "年龄输入有误" << endl;
-			return;
-		}
-		this->age = age;
-	}
-	int getage() {
-		return age;
-	}
-	void setidol(string idol) {
-		this->idol = idol;
-	}
-private:
-	string name;//可读可写
-	int age=12;//只读 也可写  （年龄必须是在0~150之间）
-	string idol;//只写
-};
-int main() {
-	return 0;
-}
+//class Person {
+//public:
+//	void setname(string name){
+//		this->name = name;
+//	}
+//	string getname() {
+//		return name;
+//	}
+//	void setage (int age){
+//		if (age < 0 || age>150) {
+//			cout << "年龄输入有误" << endl;
+//			return;
+//		}
+//		this->age = age;
+//	}
+//	int getage() {
+//		return age;
+//	}
+//	void setidol(string idol) {
+//		this->idol = idol;
+//	}
+//private:
+//	string name;//可读可写
+//	int age=12;//只读 也可写  （年龄必须是在0~150之间）
+//	string idol;//只写
+//};
+//int main() {
+//	return 0;
+//}
