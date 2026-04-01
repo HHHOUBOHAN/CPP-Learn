@@ -16,6 +16,9 @@
     <Filter Include="源文件\1">
       <UniqueIdentifier>{35fe6209-05e5-49e3-ac39-99d1f10eafe9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2">
+      <UniqueIdentifier>{8eb9b167-22f6-4eaa-8aa7-43efdbfac095}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.cpp">
@@ -36,5 +39,24 @@
     <ClCompile Include="6.cpp">
       <Filter>源文件\1</Filter>
     </ClCompile>
+    <ClCompile Include="7.cpp">
+      <Filter>源文件\1</Filter>
+    </ClCompile>
+    <ClCompile Include="成员变量和成员函数分开存储.cpp">
+      <Filter>源文件\2</Filter>
+    </ClCompile>
+    <ClCompile Include="this指针.cpp">
+      <Filter>源文件\2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C++.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
