@@ -130,8 +130,14 @@
     <ClCompile Include="5.cpp" />
     <ClCompile Include="6.cpp" />
     <ClCompile Include="7.cpp" />
+    <ClCompile Include="const修饰成员函数.cpp" />
     <ClCompile Include="this指针.cpp" />
+    <ClCompile Include="加号运算符重载.cpp" />
+    <ClCompile Include="友元.cpp" />
+    <ClCompile Include="左移运算符重载.cpp" />
     <ClCompile Include="成员变量和成员函数分开存储.cpp" />
+    <ClCompile Include="空指针访问成员函数.cpp" />
+    <ClCompile Include="递增运算符重载.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />

@@ -19,6 +19,12 @@
     <Filter Include="源文件\2">
       <UniqueIdentifier>{8eb9b167-22f6-4eaa-8aa7-43efdbfac095}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\运算符重载">
+      <UniqueIdentifier>{83cc48c8-a630-4694-a0b9-b8a132d1e482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\指针">
+      <UniqueIdentifier>{05d586a1-1cb0-4b83-8369-100c84b746b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.cpp">
@@ -47,6 +53,24 @@
     </ClCompile>
     <ClCompile Include="this指针.cpp">
       <Filter>源文件\2</Filter>
+    </ClCompile>
+    <ClCompile Include="空指针访问成员函数.cpp">
+      <Filter>源文件\2</Filter>
+    </ClCompile>
+    <ClCompile Include="const修饰成员函数.cpp">
+      <Filter>源文件\2</Filter>
+    </ClCompile>
+    <ClCompile Include="友元.cpp">
+      <Filter>源文件\2</Filter>
+    </ClCompile>
+    <ClCompile Include="加号运算符重载.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="左移运算符重载.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="递增运算符重载.cpp">
+      <Filter>源文件\运算符重载</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
